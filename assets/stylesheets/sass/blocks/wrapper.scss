@@ -1,0 +1,8 @@
+.wrapper {
+    height: 90%;
+    display: flex;
+
+    @media only screen and (max-width: 1024px) {
+        display: block;
+    }
+}
