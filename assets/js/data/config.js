@@ -30,4 +30,10 @@ export const config = {
     be: 'Вільготнасць',
     en: 'Humidity',
   },
+
+  searchButton: {
+    ru: 'Поиск',
+    be: 'Пошук',
+    en: 'Search',
+  },
 };

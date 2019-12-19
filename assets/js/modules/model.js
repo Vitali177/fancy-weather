@@ -181,6 +181,8 @@ export const Model = {
     document.querySelector('li.wind').innerHTML = `${config.wind[lang]}: ${strWind[1]}`;
     document.querySelector('li.humidity').innerHTML = `${config.humidity[lang]}: ${strHumidity[1]}`;
 
+    document.querySelector('input#search-city').value = `${config.searchButton[lang]}`;
+
     View.showDaysWeek();
     View.displayCoords();
   },
