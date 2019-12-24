@@ -8,6 +8,8 @@ require('babel-core/register');
 require('babel-polyfill');
 
 window.addEventListener('DOMContentLoaded', () => {
+  document.body.style.height = `${document.body.scrollHeight}px`;
+
   Model.createHtmlElements();
   Controller.addEventListeners();
   Model.getCoordsByCity();
