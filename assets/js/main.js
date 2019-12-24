@@ -14,6 +14,9 @@ window.addEventListener('DOMContentLoaded', () => {
   //   document.body.clientHeight, document.documentElement.clientHeight,
   // );
   // document.body.style.height = `${document.body.scrollHeight}px`;
+  if (document.body.scrollHeight < window.innerHeight) {
+    document.body.style.height = `792px`;
+  }
   Model.createHtmlElements();
   Controller.addEventListeners();
   Model.getCoordsByCity();
