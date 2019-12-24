@@ -6,7 +6,10 @@
   font-style: normal; }
 
 body {
-  width: 100%; }
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 0; }
 
 header {
   display: flex;
@@ -295,7 +298,7 @@ header form.form-search {
   width: 50%;
   padding-right: 6.25%; }
   .geolocation .geolocation__map {
-    height: 72%; }
+    height: 500px; }
     .geolocation .geolocation__map .map {
       height: 100%;
       width: 90%;
@@ -311,7 +314,7 @@ header form.form-search {
       .geolocation .geolocation__map {
         padding-top: 40px; } }
   .geolocation .geolocation__coordinates {
-    margin-top: 50px;
+    margin-top: 30px;
     padding-right: 30px; }
     .geolocation .geolocation__coordinates p {
       font-weight: 600;
