@@ -13,8 +13,8 @@ window.addEventListener('DOMContentLoaded', () => {
   //   document.body.offsetHeight, document.documentElement.offsetHeight,
   //   document.body.clientHeight, document.documentElement.clientHeight,
   // );
-  // document.body.style.height = `${scrollHeight}px`;
-
+  // document.body.style.height = `${document.body.scrollHeight}px`;
+  document.body.style.backgroundColor = `red`;
   Model.createHtmlElements();
   Controller.addEventListeners();
   Model.getCoordsByCity();
