@@ -56,7 +56,7 @@ export const View = {
   },
 
   showBackgroundImage(url) {
-    document.body.style.background = `url(" ${url} ") 100% 100% no-repeat no-repeat`;
+    document.body.style.background = `url(" ${url} ") 0 0 no-repeat no-repeat`;
     document.body.style.backgroundSize = 'cover';
   },
 
