@@ -20,9 +20,9 @@ export const config = {
   },
 
   wind: {
-    ru: 'Ветер',
-    be: 'Вецер',
-    en: 'Wind',
+    ru: ['Ветер', 'м/с'],
+    be: ['Вецер', 'м/с'],
+    en: ['Wind', 'm/s'],
   },
 
   humidity: {

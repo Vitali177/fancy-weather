@@ -178,7 +178,7 @@ export const Model = {
     const strHumidity = document.querySelector('li.humidity').innerHTML.split(':');
 
     document.querySelector('li.feels-like').innerHTML = `${config.feels[lang]}: ${strFeels[1]}`;
-    document.querySelector('li.wind').innerHTML = `${config.wind[lang]}: ${strWind[1]}`;
+    document.querySelector('li.wind').innerHTML = `${config.wind[lang][0]}: ${strWind[1].slice(0, -3)}${config.wind[lang][1]}`;
     document.querySelector('li.humidity').innerHTML = `${config.humidity[lang]}: ${strHumidity[1]}`;
 
     document.querySelector('input#search-city').value = `${config.searchButton[lang]}`;
